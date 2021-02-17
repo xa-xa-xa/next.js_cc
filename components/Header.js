@@ -9,9 +9,7 @@ const Header = () => {
       </h1>
       <p className={headerStyles.description}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
-        consectetur impedit laborum, alias quia cum laudantium hic ipsam
-        obcaecati doloremque iusto eaque eum enim sit ut officia velit ullam
-        nobis?
+        consectetur impedit laborum.
       </p>
     </>
   );

@@ -1,7 +1,7 @@
 import Head from 'next/head';
+import ArticleList from '../components/ArticleList';
 
 export default function Home({ articles }) {
-  console.log('HOME');
   console.log('articles:', articles);
   return (
     <div>
@@ -12,7 +12,7 @@ export default function Home({ articles }) {
           content='description of the content on the your site'
         ></meta>
       </Head>
-      <h1>NEXT.JS!!!!!!!!!</h1>
+      <ArticleList articles={articles} />
     </div>
   );
 }
