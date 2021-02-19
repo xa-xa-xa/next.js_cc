@@ -1,15 +1,16 @@
-import Head from 'next/head'
+import Meta from '../components/Meta';
 
 const about = () => {
-    console.log("ABOUT!!!!")
-    return (
-        <>
-            <Head>
-                <title>About page title</title>
-            </Head>
-            <h1>ABOUT PAGE</h1>
-        </>
-    )
-}
+  return (
+    <>
+      <Meta title='About' />
+      <h1>ABOUT PAGE</h1>
+      <p>
+        This is React application built with Next.js. It uses server and client
+        side rendering and dynamic meta data.
+      </p>
+    </>
+  );
+};
 
-export default about
+export default about;
